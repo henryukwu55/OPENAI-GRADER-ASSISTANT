@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OpenAI Grader Assistant</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Logo inclusion with clickable link -->
+    <!-- Logo inclusion with clickable link that opens in a new tab -->
+    <a href="https://amsterdam.tech/" target="_blank" rel="noopener noreferrer">
+      <img src="/logo.png" alt="Logo" id="logo" width="150" />
+    </a>
+
+    <h1>Student Grader Assistant</h1>
+    <!-- Docx Upload Link Section -->
+    <label for="fileInput">Upload Document (Word):</label>
+    <input type="file" id="fileInput" accept=".docx" />
+    <br /><br />
+    <!-- Google Docs Link Section -->
+    <label for="googleDocLink"> Or Submit Google Docs Link:</label>
+    <input
+      type="url"
+      id="googleDocLink"
+      placeholder="Paste your Google Docs link here"
+      style="width: 400px"
+    />
+    <br /><br />
+    <!-- Rubrics Link Section -->
+    <label for="rubrics">Paste Rubrics:</label>
+    <textarea
+      id="rubrics"
+      rows="10"
+      cols="50"
+      placeholder="Enter rubrics here..."
+    ></textarea>
+    <br /><br />
+    <button id="submit">Grade and Provide Feedback</button>
+    <div id="output"></div>
+
+    <!-- Script Tag Placed Here -->
+    <script src="script.js"></script>
+  </body>
+</html>

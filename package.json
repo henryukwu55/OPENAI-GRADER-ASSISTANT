@@ -1,0 +1,28 @@
+{
+  "type": "module",
+  "name": "openai-grader-assistant",
+  "version": "1.0.0",
+  "description": "Grader tool",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henryukwu55/OPENAI-GRADER-ASSISTANT.git"
+  },
+  "author": "Henry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henryukwu55/OPENAI-GRADER-ASSISTANT/issues"
+  },
+  "homepage": "https://github.com/henryukwu55/OPENAI-GRADER-ASSISTANT#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mammoth": "^1.9.0",
+    "multer": "^1.4.5-lts.1",
+    "node-fetch": "^3.3.2"
+  }
+}

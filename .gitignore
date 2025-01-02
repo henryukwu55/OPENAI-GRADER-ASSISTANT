@@ -1,0 +1,19 @@
+# Ignore environment files
+backend/.env
+
+# Ignore uploads folder in backend
+backend/uploads/
+
+# Node.js dependencies (if applicable)
+backend/node_modules/
+
+# Logs
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Build directories (if any)
+dist/
+build/
